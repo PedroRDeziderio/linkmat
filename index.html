@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>CADASTRO !</h1>
+      <form class="stack" id="form-cadastro" autocomplete="on">
+        <div class="stack">
+          <label for="cad-nome">Nome completo</label>
+          <input class="input" type="text" id="cad-nome" name="nome" placeholder="Seu nome" required />
+        </div>
+
+        <div class="stack">
+          <label for="cad-email">E-mail</label>
+          <input class="input" type="email" id="cad-email" name="email" placeholder="voce@exemplo.com" required />
+        </div>
+
+        <div class="stack">
+          <label for="cad-senha">Senha</label>
+          <input class="input" type="password" id="cad-senha" name="senha" placeholder="Mínimo 6 caracteres" minlength="6" required />
+        </div>
+
+        <div class="stack">
+          <label for="cad-confirma">Confirmar senha</label>
+          <input class="input" type="password" id="cad-confirma" name="confirma" placeholder="Repita a senha" minlength="6" required />
+        </div>
+
+        <button class="btn" type="submit">Cadastrar</button>
+      </form>
+      <p class="helper">Já tem conta? <a href="login.html">Ir para o login</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
