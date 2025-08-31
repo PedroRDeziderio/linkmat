@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titulo": "Currículo",
+    "descricao": "Página contendo informações acadêmicas, cursos complementares e contato do usuário.",
+    "link": "curriculo.html",
+    "tags": ["curriculo", "formação", "contato", "pedro", "deviderio"]
+  },
+  {
+    "id": 2,
+    "titulo": "Tabela de Horários",
+    "descricao": "Tabela completa com os horários das aulas de segunda a sexta-feira.",
+    "link": "tabela.html",
+    "tags": ["tabela", "horários", "aulas", "escola"]
+  },
+  {
+    "id": 3,
+    "titulo": "Tela de Login",
+    "descricao": "Página para autenticar usuários cadastrados no sistema.",
+    "link": "login.html",
+    "tags": ["login", "acesso", "autenticação"]
+  },
+  {
+    "id": 4,
+    "titulo": "Tela de Cadastro",
+    "descricao": "Página para registrar novos usuários no sistema.",
+    "link": "index.html",
+    "tags": ["cadastro", "novo usuário", "registrar"]
+  },
+  {
+    "id": 5,
+    "titulo": "Manual",
+    "descricao": "Clique aqui para buscar uma solução para seu problema.",
+    "link": "Manual.html",
+    "tags": ["erros", "problemas", "falhas"]
+  }
+]
