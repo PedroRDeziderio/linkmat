@@ -1,0 +1,61 @@
+*{
+   background-color: beige;
+}
+
+
+   .nav-a,
+   .nav-b,
+   .a {
+      color: rgb(126, 23, 23);
+      font-size:  1.875rem; 
+      text-decoration: none;
+      display: block;
+      margin: 1.25rem;
+   
+  
+   }
+
+   .nav-a:hover{
+      color: rgb(255, 0, 221);
+   }
+   
+
+   .nav-b:hover{
+      color: rgb(255, 0, 221);
+   }
+
+   .a:hover{
+      color:rgb(255, 0, 221)
+   }
+
+
+
+   .nome{
+      color:rgb(0, 255, 110) ;
+      margin-bottom: 3.125rem;
+      text-align: center;
+   }
+
+   .inform{
+      text-align: center;
+   }
+
+   .infos{
+      text-align: center;
+
+   }
+
+   .extra{
+      text-align: center;
+   }
+   .nav{
+      text-align: center;
+   }
+
+   .table,th,tr{
+      border: 1px solid;
+   }
+
+   h2{
+      color:rgb(0, 68, 255)
+   }
